@@ -35,6 +35,7 @@ Button btn;
 		msg = (CheckBox) findViewById(R.id.checkBox3);
 		rep = (CheckBox) findViewById(R.id.checkBox4);
 		addButtonClickListner();
+		//salut
     }
     
     public void addButtonClickListner() {
