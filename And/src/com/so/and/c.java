@@ -54,7 +54,7 @@ public class c extends MainActivity {
  
             //write to console or file
             StreamResult console = new StreamResult(System.out);
-            StreamResult file = new StreamResult(new File("emps1.xml"));
+            StreamResult file = new StreamResult(new File("/data/data/com.so.and/versserveur.xml"));
  
             //write data
             transformer.transform(source, console);

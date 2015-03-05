@@ -52,6 +52,18 @@
         android:text="Repertoire" />
 
     <Button
+        android:id="@+id/buttsav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sauvegarder dans l&apos;historique" />
+
+    <Button
+        android:id="@+id/efface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Initialiser l&apos;historique" />
+
+    <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
